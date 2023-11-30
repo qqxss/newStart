@@ -20,7 +20,7 @@ public class N1657 {
         for(char c:word1.toCharArray())
             a[c-'a']++;
         for(char c:word2.toCharArray())
-            a[c-'a']++;
+            b[c-'a']++;
         //排除一种数量等于零且另一个不为零的情况
         for (int i = 0; i <26; i++) {
             if(a[i]>0&&b[i]==0||a[i]==0&&b[i]>0)
